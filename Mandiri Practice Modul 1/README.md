@@ -12,6 +12,12 @@ Matkul: **STRUKDAT 4 Pillars OOP**
 
 Contoh sederhana **Music Player** yang digunakan untuk memahami konsep dasar OOP (Object-Oriented Programming) di Java. Mulai dari apa itu class dan object, sampai ke 4 pilar utama OOP.
 
+**CASE CERITA** developer bikin music player yang bisa handle dua jenis audio, lagu studio dan rekaman live. Daripada bikin dua class terpisah yang isinya hampir sama, dia bikin satu super class `AudioTrack` buat nampung semua kesamaan seperti title, artist, dan volume.
+
+`AudioTrack` dijadikan abstract karena tidak ada yang namanya "memutar audio" tanpa tahu audio apa, yang bisa diputar itu `StudioSong` sama `LiveStreamAudio`. Method `playAudio()` dikosongkan di super class supaya setiap turunan wajib isi caranya sendiri, karena muterin lagu studio dan live concert jelas beda prosesnya.
+
+Volume dibuat `private` dan dikasih validasi di setter, biar tidak ada yang bisa set volume sembarangan sampai angka yang bisa rusak kuping. Akses harus lewat `setVolume()`, kalau inputnya di luar range 0-100 langsung ditolak.
+
 ---
 
 ## Daftar Isi
