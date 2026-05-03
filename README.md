@@ -117,4 +117,4 @@ java NamaFile
 
 ---
 
-> 📌 README ini akan terus diperbarui seiring bertambahnya materi sepanjang semester.
+> README ini akan terus diperbarui seiring bertambahnya materi sepanjang semester.
