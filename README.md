@@ -1,4 +1,4 @@
-# 📚 STRUKDAT-2026
+# STRUKDAT-2026
 
 | Nama  | Keisya Halimah Mulia |
 |-------|----------------------|
